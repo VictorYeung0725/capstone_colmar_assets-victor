@@ -247,4 +247,16 @@ header{
   color: blue;
 }
 /* section 4 end here  */
+footer{
+margin: 16px 24px;
+}
 
+
+.footer2{
+  display: flex;
+}
+.footer2 li{
+ list-style: none;
+ margin-left: 16px;
+ color: black;
+}
