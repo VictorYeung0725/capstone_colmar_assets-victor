@@ -41,6 +41,44 @@ header{
   margin-left: 16px;
   list-style: none;
 }
+
+.media-nav{
+  display: none;
+}
+
+
+@media screen and (max-device-width: 480px) {
+  /* nav part */
+  .left-nav{
+    display: none;
+  }
+
+  .logo{
+    display:none;
+  }
+
+  .media-nav{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .media-nav img{
+    height: 2rem;
+  }
+
+  /* section 1 */
+
+  .container1 {
+    display: flex;
+  }
+
+}
+
+
+
 /* header end here  */
 
 /* section 1 start here  */
@@ -51,7 +89,7 @@ header{
   background-color: #D8D8D8;
 }
 .banner{
-  margin: 32px 24px;
+  margin: 2rem 1.5rem;
 }
 
 .content-right {
@@ -164,6 +202,9 @@ header{
   gap: 32px;
   padding-bottom: 32px;
 }
+
+
+
 
 .part1{
   background-color:white;
